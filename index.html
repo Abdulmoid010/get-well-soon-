@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Well Soon, Maryy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              dark: {
+                100: '#1A1A1A',
+                200: '#111111',
+              },
+              sunshine: {
+                100: '#FFF6D5',
+                200: '#FFD84D',
+                300: '#FFC83D',
+              }
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="bg-dark-200 text-white font-sans overflow-x-hidden">
+    <!-- Floating Particles Background -->
+    <div id="particles-js" class="fixed inset-0 z-0"></div>
+
+    <!-- Main Content -->
+    <div class="relative z-10 min-h-screen flex flex-col items-center justify-center px-4 py-12 md:py-24">
+        <!-- Hero Section -->
+        <section class="w-full max-w-4xl mx-auto text-center mb-16">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4 animate-fadeIn">Get Well Soon, Maryy <span class="text-sunshine-200">🌻</span></h1>
+            <p class="text-xl md:text-2xl text-gray-300 animate-fadeIn delay-100">I'm really sorry... and I care about you more than words can say.</p>
+            <div class="mt-8 animate-bounce-slow">
+                <i data-feather="heart" class="w-12 h-12 text-sunshine-200 mx-auto"></i>
+            </div>
+        </section>
+
+        <!-- Apology Section -->
+        <section class="w-full max-w-2xl mx-auto mb-20">
+            <div class="bg-dark-100 rounded-xl p-8 shadow-lg hover:shadow-sunshine-200/10 transition-all duration-500 hover:-translate-y-1 border border-sunshine-200/20 hover:border-sunshine-200/40">
+                <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-sunshine-200">From My Heart</h2>
+                <div class="space-y-4 text-lg text-gray-300">
+                    <p>I know you got sick because of me.</p>
+                    <p>I should've been more careful.</p>
+                    <p class="text-sunshine-200 font-medium">I'm truly sorry, Maryy.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Care Section -->
+        <section class="w-full max-w-4xl mx-auto mb-20">
+            <h2 class="text-2xl md:text-3xl font-semibold mb-8 text-center text-sunshine-200">Please Take Care of Yourself</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Care Card 1 -->
+                <div class="bg-dark-100 rounded-xl p-6 text-center hover:shadow-sunshine-200/10 transition-all duration-500 hover:-translate-y-1 group">
+                    <div class="w-16 h-16 bg-sunshine-200/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-sunshine-200/20 transition-colors duration-300">
+                        <i data-feather="droplet" class="w-8 h-8 text-sunshine-200 group-hover:scale-110 transition-transform duration-300"></i>
+                    </div>
+                    <h3 class="text-xl font-medium mb-2">Drink water</h3>
+                    <p class="text-gray-400">Stay hydrated always</p>
+                </div>
+
+                <!-- Care Card 2 -->
+                <div class="bg-dark-100 rounded-xl p-6 text-center hover:shadow-sunshine-200/10 transition-all duration-500 hover:-translate-y-1 group">
+                    <div class="w-16 h-16 bg-sunshine-200/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-sunshine-200/20 transition-colors duration-300">
+                        <i data-feather="activity" class="w-8 h-8 text-sunshine-200 group-hover:scale-110 transition-transform duration-300"></i>
+                    </div>
+                    <h3 class="text-xl font-medium mb-2">Take medicine</h3>
+                    <p class="text-gray-400">Follow doctor's advice</p>
+                </div>
+
+                <!-- Care Card 3 -->
+                <div class="bg-dark-100 rounded-xl p-6 text-center hover:shadow-sunshine-200/10 transition-all duration-500 hover:-translate-y-1 group">
+                    <div class="w-16 h-16 bg-sunshine-200/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-sunshine-200/20 transition-colors duration-300">
+                        <i data-feather="moon" class="w-8 h-8 text-sunshine-200 group-hover:scale-110 transition-transform duration-300"></i>
+                    </div>
+                    <h3 class="text-xl font-medium mb-2">Rest properly</h3>
+                    <p class="text-gray-400">Get enough sleep</p>
+                </div>
+
+                <!-- Care Card 4 -->
+                <div class="bg-dark-100 rounded-xl p-6 text-center hover:shadow-sunshine-200/10 transition-all duration-500 hover:-translate-y-1 group">
+                    <div class="w-16 h-16 bg-sunshine-200/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-sunshine-200/20 transition-colors duration-300">
+                        <i data-feather="x" class="w-8 h-8 text-sunshine-200 group-hover:scale-110 transition-transform duration-300"></i>
+                    </div>
+                    <h3 class="text-xl font-medium mb-2">No junk food</h3>
+                    <p class="text-gray-400">Just for now, okay?</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Promise Section -->
+        <section class="w-full max-w-2xl mx-auto mb-20">
+            <h2 class="text-2xl md:text-3xl font-semibold mb-8 text-center text-sunshine-200">I Promise</h2>
+            <div class="space-y-4">
+                <div class="promise-item opacity-0 bg-dark-100 rounded-lg p-6 border-l-4 border-sunshine-200">
+                    <p class="text-lg">I'll be more careful next time</p>
+                </div>
+                <div class="promise-item opacity-0 bg-dark-100 rounded-lg p-6 border-l-4 border-sunshine-200">
+                    <p class="text-lg">I'll think before buying anything</p>
+                </div>
+                <div class="promise-item opacity-0 bg-dark-100 rounded-lg p-6 border-l-4 border-sunshine-200">
+                    <p class="text-lg">I never want to see you sick again</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Closing Section -->
+        <section class="w-full bg-sunshine-200 py-16 rounded-xl">
+            <div class="max-w-2xl mx-auto text-center text-dark-200">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Get well soon, Maryy <span class="text-dark-200">🌼</span></h2>
+                <p class="text-xl">I'll be waiting to see you smile again.</p>
+                <button id="hugButton" class="mt-8 px-8 py-3 bg-dark-200 text-sunshine-200 rounded-full font-medium hover:bg-dark-100 transition-colors duration-300 flex items-center mx-auto">
+                    <i data-feather="heart" class="mr-2"></i> Tap for a hug
+                </button>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-16 text-center text-gray-500 text-sm">
+            <p>Made with care, just for you, Maryy.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>feather.replace();</script>
+<script src="https://huggingface.co/deepsite/deepsite-badge.js"></script>
+</body>
+</html>
